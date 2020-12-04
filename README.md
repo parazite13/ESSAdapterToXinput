@@ -2,8 +2,10 @@
 This project allows you to use your GameCube controller plugged into your wii as a Generix XBox360Controller in your PC (assuming you have an ESSAdapter).
 
 ## History
-As a Ocarina of Time speedrunner ([speedrun.com profile](https://www.speedrun.com/user/parazite)) I use waht we called an ESS Adapter to be able to vizualize our GameCube controller's input in a software like [NintendoSpy](https://github.com/jaburns/NintendoSpy).
-This project cames up when I realized that I have a GameCube controller indirectly plugged in my PC but I can't use it in any other emulators. So I've developped this little tools that convert the input signal from a GameCube controller COM port (from my ESS Adapter) to a generic XBox360 Controller so that I can use my GameCube controller in software like : Bizhawk (for randomizer lovers <3), Dolphin, or more generally Steam.
+As a Ocarina of Time speedrunner ([speedrun.com profile](https://www.speedrun.com/user/parazite)) I use what we called an [ESS Adapter](https://electromodder.co.uk/) to be able to visualize our GameCube controller's inputs in a software like [NintendoSpy](https://github.com/jaburns/NintendoSpy).
+
+This project cames up when I realized that I have a GameCube controller indirectly plugged in my PC but I can't use it in any other emulators. So I've developped this little tools that convert the input signal from a GameCube controller COM port (from my ESS Adapter) to a generic XBox360 Controller.\
+I'm now able to use my GameCube controller in softwares like : Bizhawk (for randomizer lovers <3), Dolphin, or more generally any Steam games.
 
 ## Prerequisities
 As this tools relies on the fantastic [ViGEm](https://github.com/ViGEm/ViGEmBus) project, it's needed to install it's last release from [here](https://github.com/ViGEm/ViGEmBus/releases).

@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Closing="MainWindow_Closing"  
+        Title="ESSAdapterToXinput" Height="130" Width="300">
+    <StackPanel>
+        <ComboBox Name="ComboBox_Device">
+            <ComboBoxItem>NES</ComboBoxItem>
+            <ComboBoxItem>SNES</ComboBoxItem>
+            <ComboBoxItem>N64</ComboBoxItem>
+            <ComboBoxItem>GAMECUBE</ComboBoxItem>
+        </ComboBox>
+        <ComboBox Name="ComboBox_Com">
+            <ComboBoxItem>COM1</ComboBoxItem>
+            <ComboBoxItem>COM2</ComboBoxItem>
+            <ComboBoxItem>COM3</ComboBoxItem>
+            <ComboBoxItem>COM4</ComboBoxItem>
+            <ComboBoxItem>COM5</ComboBoxItem>
+            <ComboBoxItem>COM6</ComboBoxItem>
+            <ComboBoxItem>COM7</ComboBoxItem>
+        </ComboBox>
+        <Button Name="Button_Plug" Click="Plug_ButtonClicked" IsEnabled="True">Plug</Button>
+        <Button Name="Button_Unplug" Click="Unplug_ButtonClicked" IsEnabled="False">Unplug</Button>
+    </StackPanel>
+</Window>

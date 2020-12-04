@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WpfApp.InputReader
+namespace ESSAdapterToXinput.InputReader
 {
     public class SerialControllerReader : IControllerReader
     {

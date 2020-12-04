@@ -1,9 +1,9 @@
-﻿<Window x:Class="WpfApp.MainWindow"
+﻿<Window x:Class="ESSAdapterToXinput.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp"
+        xmlns:local="clr-namespace:ESSAdapterToXinput"
         mc:Ignorable="d"
         Closing="MainWindow_Closing"  
         Title="ESSAdapterToXinput" Height="130" Width="300">

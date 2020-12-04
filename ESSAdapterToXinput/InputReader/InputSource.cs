@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using WpfApp.InputReader.Devices;
+using ESSAdapterToXinput.InputReader.Devices;
 
-namespace WpfApp.InputReader
+namespace ESSAdapterToXinput.InputReader
 {
     public class InputSource
     {

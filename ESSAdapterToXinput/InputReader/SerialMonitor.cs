@@ -6,7 +6,7 @@ using System.Timers;
 using System.Windows.Threading;
 
 
-namespace WpfApp.InputReader
+namespace ESSAdapterToXinput.InputReader
 {
     public delegate void PacketEventHandler(object sender, byte[] packet);
 
